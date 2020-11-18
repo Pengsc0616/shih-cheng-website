@@ -1,23 +1,32 @@
 {
   "files": {
-    "main.css": "/shih-cheng-website/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/shih-cheng-website/static/js/main.292e4176.chunk.js",
-    "main.js.map": "/shih-cheng-website/static/js/main.292e4176.chunk.js.map",
-    "runtime-main.js": "/shih-cheng-website/static/js/runtime-main.fd6e42b2.js",
-    "runtime-main.js.map": "/shih-cheng-website/static/js/runtime-main.fd6e42b2.js.map",
-    "static/js/2.1da52b43.chunk.js": "/shih-cheng-website/static/js/2.1da52b43.chunk.js",
-    "static/js/2.1da52b43.chunk.js.map": "/shih-cheng-website/static/js/2.1da52b43.chunk.js.map",
-    "static/js/3.55e99b62.chunk.js": "/shih-cheng-website/static/js/3.55e99b62.chunk.js",
-    "static/js/3.55e99b62.chunk.js.map": "/shih-cheng-website/static/js/3.55e99b62.chunk.js.map",
+    "main.css": "/shih-cheng-website/static/css/main.76d4fea5.chunk.css",
+    "main.js": "/shih-cheng-website/static/js/main.b277426a.chunk.js",
+    "main.js.map": "/shih-cheng-website/static/js/main.b277426a.chunk.js.map",
+    "runtime-main.js": "/shih-cheng-website/static/js/runtime-main.dbf26e1a.js",
+    "runtime-main.js.map": "/shih-cheng-website/static/js/runtime-main.dbf26e1a.js.map",
+    "static/css/2.1a02f21c.chunk.css": "/shih-cheng-website/static/css/2.1a02f21c.chunk.css",
+    "static/js/2.42fc5f12.chunk.js": "/shih-cheng-website/static/js/2.42fc5f12.chunk.js",
+    "static/js/2.42fc5f12.chunk.js.map": "/shih-cheng-website/static/js/2.42fc5f12.chunk.js.map",
+    "static/js/3.fb2f01e6.chunk.js": "/shih-cheng-website/static/js/3.fb2f01e6.chunk.js",
+    "static/js/3.fb2f01e6.chunk.js.map": "/shih-cheng-website/static/js/3.fb2f01e6.chunk.js.map",
     "index.html": "/shih-cheng-website/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/shih-cheng-website/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.1da52b43.chunk.js.LICENSE.txt": "/shih-cheng-website/static/js/2.1da52b43.chunk.js.LICENSE.txt",
-    "static/media/logo.103b5fa1.svg": "/shih-cheng-website/static/media/logo.103b5fa1.svg"
+    "static/css/2.1a02f21c.chunk.css.map": "/shih-cheng-website/static/css/2.1a02f21c.chunk.css.map",
+    "static/css/main.76d4fea5.chunk.css.map": "/shih-cheng-website/static/css/main.76d4fea5.chunk.css.map",
+    "static/js/2.42fc5f12.chunk.js.LICENSE.txt": "/shih-cheng-website/static/js/2.42fc5f12.chunk.js.LICENSE.txt",
+    "static/media/E2STN.jpg": "/shih-cheng-website/static/media/E2STN.47315fad.jpg",
+    "static/media/address_spell_checker.jpg": "/shih-cheng-website/static/media/address_spell_checker.d87b4159.jpg",
+    "static/media/anime_gan.jpg": "/shih-cheng-website/static/media/anime_gan.76261b9a.jpg",
+    "static/media/author_img.d91d7738.jpg": "/shih-cheng-website/static/media/author_img.d91d7738.jpg",
+    "static/media/home_img.844632d6.jpg": "/shih-cheng-website/static/media/home_img.844632d6.jpg",
+    "static/media/resume.461a7811.pdf": "/shih-cheng-website/static/media/resume.461a7811.pdf",
+    "static/media/stroke_stylization.png": "/shih-cheng-website/static/media/stroke_stylization.a36823e7.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.fd6e42b2.js",
-    "static/js/2.1da52b43.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.292e4176.chunk.js"
+    "static/js/runtime-main.dbf26e1a.js",
+    "static/css/2.1a02f21c.chunk.css",
+    "static/js/2.42fc5f12.chunk.js",
+    "static/css/main.76d4fea5.chunk.css",
+    "static/js/main.b277426a.chunk.js"
   ]
 }
