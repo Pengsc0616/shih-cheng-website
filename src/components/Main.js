@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Home from './Home'
+import Summary from './Summary'
 import Education from './Education'
 import Skills from './Skills'
 import Work from './Work'
@@ -14,12 +15,13 @@ export default class Main extends React.Component {
       <div>
         <div id="main-container" className="full-height">
           <Home />
-          <Skills />
+          <Summary />
+          {/* <Skills /> */}
           <Work />
           <Education />
           <Projects />
           {/* <Publications></Publications> */}
-          <Minecraft />
+          {/* <Minecraft /> */}
         </div>
       </div>
     )

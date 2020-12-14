@@ -19,7 +19,7 @@ export default class Publications extends Component {
               abstract={
                 "Neural image style transfer has been receiving increasing attention on the creation of artistic images. Given a reference image with style of interest, image style harmonization aims to blend an element from one image into this reference, achieving harmonization for the stylized output. We present an Element-Embedded Style Transfer Network (E2STN) for addressing this task. Our proposed network uniquely integrates style transfer and image matting modules. Together with global and local discriminators, both context and style information can be properly preserved in the embedded output. In the experiments, we show that our proposed network performs favorably against existing style transfer models and is able to produce results with satisfactory quality."
               }
-              link="https://bmvc2019.org/wp-content/uploads/papers/0425-paper.pdf"
+              //link="https://bmvc2019.org/wp-content/uploads/papers/0425-paper.pdf"
               media_name="E2STN"
             />
           </div>

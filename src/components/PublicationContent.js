@@ -9,11 +9,11 @@ export default class PublicationContent extends Component {
     this.displayMedia = this.displayMedia.bind(this);
     this.publicationID = `publication_${this.props.index}`;
 
-    this.images = {
+    /* this.images = {
       "E2STN": {
         uri: require("../assets/images/publications/E2STN.jpg")
       }
-    }
+    }*/
   }
 
   openPublication() {
@@ -35,9 +35,10 @@ export default class PublicationContent extends Component {
 
   displayMedia() {
     if (!this.props.media_name) return null;
-    return (
-      <img className="media-image" src={this.images[this.props.media_name].uri} alt="Media Image"></img>
-    );
+    else return null;
+    //return //(
+      // <img className="media-image" src={this.images[this.props.media_name].uri} alt="Media Image"></img>
+    //);
   }
 
   render() {
@@ -52,7 +53,7 @@ export default class PublicationContent extends Component {
             </div>
             
             <div className="overlay-link-container">
-              {this.displayLink()}
+              {/* {this.displayLink()} */}
             </div>
 
             <div className="overlay-media-container">

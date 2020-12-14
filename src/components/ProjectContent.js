@@ -1,4 +1,10 @@
 import React, { Component } from 'react'
+//import anime_gan from '../assets/images/projects/anime_gan.jpg'
+//import BattleShip from '../assets/files/Battleship.pdf'
+//import AddressImg from '../assets/images/projects/address_spell_checker.jpg'
+import Viewer, { Worker } from '@phuocng/react-pdf-viewer';
+import '@phuocng/react-pdf-viewer/cjs/react-pdf-viewer.css';
+import filePDF from '../assets/files/Battleship.pdf'
 
 export default class ProjectContent extends Component {
   constructor(props) {
@@ -9,7 +15,7 @@ export default class ProjectContent extends Component {
     this.displayMedia = this.displayMedia.bind(this);
     this.projectID = `project_${this.props.index}`;
 
-    this.images = {
+    /*this.images = {
       "address_spell_checker": {
         uri: require("../assets/images/projects/address_spell_checker.jpg")
       },
@@ -18,8 +24,14 @@ export default class ProjectContent extends Component {
       },
       "stroke_stylization": {
         uri: require("../assets/images/projects/stroke_stylization.png")
+      },
+      "selfie": {
+        uri: require("../assets/images/projects/author_img.jpg")
       }
-    }
+    }*/
+    /*this.images = {
+      "anime_gan":anime_gan
+    }*/
   }
 
   openProject() {
@@ -34,7 +46,7 @@ export default class ProjectContent extends Component {
     if (!this.props.link) return null;
     return (
       <div id="link-button" className="btn btn-primary btn-learn">
-        <a href={this.props.link} target="_blank" rel="noopener noreferrer">Source Code</a>
+        <a href={this.props.link} target="_blank" rel="noopener noreferrer">Link/Report</a>
       </div>      
     )
   }
@@ -43,12 +55,13 @@ export default class ProjectContent extends Component {
     if (!this.props.media_type) return null;
     else if (this.props.media_type === "image") {
       return (
-        <img className="media-image" src={this.images[this.props.media_name].uri} alt="Media Image"></img>
+        // <img className="media-image" src={this.images[this.props.media_name].url} alt="PleaseShowThis"></img>
+        <img className="media-image" src={this.images[this.props.media_name]}></img>
       );
     } else if (this.props.media_type === "video") {
       return null;
     } 
-    return null;
+    return <img className="media-image" src={this.images[this.props.media_name]} alt="Media Image"></img>;
   }
 
   render() {
@@ -70,8 +83,17 @@ export default class ProjectContent extends Component {
               {this.displayLink()}
             </div>
 
-            <div className="overlay-media-container">
-              {this.displayMedia()}
+            {/* <div className="overlay-media-container"> */}
+            <div>
+              {/* {this.displayMedia()} */}
+              {/* <img className="media-image" src={Picture}></img> */}  
+              {/* <embed type={"application/pdf"} src={BattleShip} />  */}
+              {/* <a className="media-image" href={BattleShip}>OPEN</a> */}
+              {/* <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.5.207/build/pdf.worker.min.js"> */}
+                {/* <div id="pdfviewer"> */}
+                  {/* <Viewer fileUrl={filePDF} /> */}
+                {/* </div> */}
+              {/* </Worker> */}
             </div>
             
           </div>

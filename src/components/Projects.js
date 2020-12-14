@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 
 import PublicationContent from './PublicationContent'
 import ProjectContent from './ProjectContent'
+import BTReport from '../assets/files/BTReport.pdf'
+import WIFIReport from '../assets/files/WIFIReport.pdf'
 
 export default class Projects extends Component {
 
@@ -11,23 +13,23 @@ export default class Projects extends Component {
         <div id="projects-container">       
           <div className="heading-container">
             <h2 className="subheading">My Work</h2>
-            <h2 className="heading">Publications &amp; Projects</h2>
+            <h2 className="heading">Course & Project Experience</h2>
           </div>
 
-          <div id="publications-content">
-            <div>
-              <h3>Publications</h3>
-            </div>
-            <PublicationContent
-              index="0"
-              title="Element-Embedded Style Transfer Networks for Style Harmonization"
-              abstract={
-                "Neural image style transfer has been receiving increasing attention on the creation of artistic images. Given a reference image with style of interest, image style harmonization aims to blend an element from one image into this reference, achieving harmonization for the stylized output. We present an Element-Embedded Style Transfer Network (E2STN) for addressing this task. Our proposed network uniquely integrates style transfer and image matting modules. Together with global and local discriminators, both context and style information can be properly preserved in the embedded output. In the experiments, we show that our proposed network performs favorably against existing style transfer models and is able to produce results with satisfactory quality."
-              }
-              link="https://bmvc2019.org/wp-content/uploads/papers/0425-paper.pdf"
-              media_name="E2STN"
-            />
-          </div>
+          {/* <div id="publications-content"> */}
+            {/* <div> */}
+              {/* <h3>Publications</h3> */}
+            {/* </div> */}
+            {/* <PublicationContent */}
+              {/* index="0" */}
+              {/* title="Element-Embedded Style Transfer Networks for Style Harmonization" */}
+              {/* abstract={ */}
+                {/* "Neural image style transfer has been receiving increasing attention on the creation of artistic images. Given a reference image with style of interest, image style harmonization aims to blend an element from one image into this reference, achieving harmonization for the stylized output. We present an Element-Embedded Style Transfer Network (E2STN) for addressing this task. Our proposed network uniquely integrates style transfer and image matting modules. Together with global and local discriminators, both context and style information can be properly preserved in the embedded output. In the experiments, we show that our proposed network performs favorably against existing style transfer models and is able to produce results with satisfactory quality." */}
+              {/* } */}
+              {/* link="https://bmvc2019.org/wp-content/uploads/papers/0425-paper.pdf" */}
+              {/* media_name="E2STN" */}
+            {/* /> */}
+          {/* </div> */}
           
           <div id="projects-content">
             <div>
@@ -36,54 +38,97 @@ export default class Projects extends Component {
 
             <ProjectContent
               index="0"
-              title="Spell-Checker for Local Search User Queries"
+              title="Bluetooth 5.2 Advertisement Demonstration"
               descriptions={[
-                "Worked with Telenav, Inc @ Santa Clara, California.",
-                "Designed an address spell checker for English spell-checking and correction.",
-                "Applied an incremental learning-based technique to provide updates to the learned model without further data preprocessing.",
-                "Collected and built an evaluation dataset consists of three types of common misspellings.",
-                "Achieved over 80% accuracy and < 80ms inference time on word level."
+                "Implemented the latest BT LE Extended Advertising with 2x speed, 4x range, and 8x data size compared to Bluetooth 4.",
+                "Built Windows API to interact with customized sender created by HCI commands",
+                "Using tools like Ellisys and BTVS to analyze data transferring."
               ]}
-              link="https://github.com/andgitisaac/addresschecker"
+              link={BTReport}
               media_type="image"
               media_name="address_spell_checker"
             />
 
             <ProjectContent
               index="1"
-              title="Anime Character Generative Adversarial Network"
+              title="Building MicroAPITester for PIE"
               descriptions={[
-                "Course: UW CSE 599G1 - Introduction to Deep Learning",
-                "Implemented GAN-based model to generate plausible faces of anime characters",
-                "Incorporated additional information (e.g., eye/hair colors) to take control of the modes of the output images."
+                "Implemented the SDK APIs in a dynamic link library (DLL) for PIE (Intel® PROSet/Wireless WiFi Software extension).",
+                "Designed a user-level application to communicate with Intel® Dual Band Wireless-AC and Intel® Wireless-AC/AX products."
               ]}
-              link="https://github.com/andgitisaac/CSE599G1"
+              link={WIFIReport}
               media_type="image"
               media_name="anime_gan"
             />
 
             <ProjectContent
               index="2"
-              title="Citation Network Analysis: Prediction and Recommendation"
+              title="Automatic Temperature Detection and Facial Recognition Syste"
               descriptions={[
-                "Course: UW CSE 547 - Machine Learning for Big Data",
-                "Re-implemented several popular citaition netwrok classifiers using either paper content or the citation relationships.",
-                "Built a graph convolutional network (GCN) that jointly leveraged the information of network structure and the content of the documents."
+                "HIGH SPEED COMMUNICATION & COMPUTING LABORATORY --- LINUX, PYTHON, OPENCV, ROS",
+                "Combined IoT and Network to create an abnormal temperature warning system.",
+                "Using MLX90614 as a thermometer, JetBot performs the object following, OpenCV as a tracking system, and IoTTalk as a communication platform."
               ]}
-              link="https://github.com/andgitisaac/CitNet"
-              media_type=""
-              media_name=""
+              link="https://www.youtube.com/watch?v=LiUK_TaD4uo&t=1s"
+              media_type="image"
+              media_name="anime_gan"
             />
 
             <ProjectContent
               index="3"
-              title="Stroke-Based Image Artistic Stylization"
+              title="Real Estate Market Query System"
               descriptions={[
-                "Course: UW ECE 568 - Digital Image Processing",
-                "Designed a stroke-based algorithm renders the input image applying the fundamental techniques of the impressionism.",
-                "Captured the essence of the object in a series of coarse-to-fine layers using dynamic size of strokes."
+                "INTRODUCTION TO DATABASE SYSTEM --- MYSQL, PYTHON, JS, PHP, HTML ",
+                "Created a website where users could visualize trends in the housing market by looking at real-estate transaction history.",
+                "Using Apache Server to execute PHP and interact with users by providing HTML and receiving users’ input."
               ]}
-              link="https://github.com/andgitisaac/stroke-based-stylization"
+              link="https://github.com/Pengsc0616/database_house_price"
+              media_type="image"
+              media_name="stroke_stylization"
+            />
+            <ProjectContent
+              index="4"
+              title="Battleship Game with IoT"
+              descriptions={[
+                "DESIGN AND IMPLEMENT OF IOT APPLICATIONS --- JS, JQUERY, CSS, HTML, PYTHON",
+                "Created a game combining IoT and Battleship. ",
+                "Two players take turns guessing the position of the opponent's warship through IoTTalk Platform with low latency."
+              ]}
+              link="https://github.com/Pengsc0616/IoT-Final-Project"
+              media_type="image"
+              media_name="stroke_stylization"
+            />
+            <ProjectContent
+              index="5"
+              title="Synopsys-ARC IOTDK / IoTTalk Application Design & Implementation"
+              descriptions={[
+                "DESIGN AND IMPLEMENT OF IOT APPLICATIONS, INTERNET OF THINGS BASIC DESIGN AND IMPLEMENTATION --- C, PYTHON, JS",
+                "Implemented IOT peripheral sensor and wireless communication device in ESP8266, Raspberry Pi, and ARC IOTDK embedded development board."
+              ]}
+              link="https://google.com"
+              media_type="image"
+              media_name="stroke_stylization"
+            />
+            <ProjectContent
+              index="6"
+              title="Robot Operating System (ROS 1 & 2)"
+              descriptions={[
+                "TAOYUAN ROS SUMMER COURSE AND COMPETITION --- PYTHON",
+                "Designed system for operating robots with multiple models and implemented SLAM and automatic navigation system for robots."
+              ]}
+              link="https://google.com"
+              media_type="image"
+              media_name="stroke_stylization"
+            />
+            <ProjectContent
+              index="7"
+              title="Music App Pitch Deck Business Proposal"
+              descriptions={[
+                "TECHNOLOGY ENTREPRENEURSHIP",
+                "Proposed Music App Pitch Deck (MAPD), a platform to simplify the procedure of music companies authorize the right of songs to music streaming media.",
+                "Using Blockchain to achieve timely distribution of profit and information transparency."
+              ]}
+              link="https://google.com"
               media_type="image"
               media_name="stroke_stylization"
             />

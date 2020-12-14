@@ -26,13 +26,14 @@ export default class Navbar extends Component {
 
           <nav id="navbar-container">
             <div id="navbar-content">
-              <a className="navbar-section" onClick={() => this.scrollToSectionOnClick("home-section")}>Home</a> 
-              <a className="navbar-section" onClick={() => this.scrollToSectionOnClick("skills-section")}>Skills</a>
+              <a className="navbar-section" onClick={() => this.scrollToSectionOnClick("home-section")}>Home</a>
+              <a className="navbar-section" onClick={() => this.scrollToSectionOnClick("summary-section")}>Summary</a> 
+              {/* <a className="navbar-section" onClick={() => this.scrollToSectionOnClick("skills-section")}>Skills</a> */}
               <a className="navbar-section" onClick={() => this.scrollToSectionOnClick("work-section")}>Work Experience</a>
               <a className="navbar-section" onClick={() => this.scrollToSectionOnClick("education-section")}>Education</a>
-              <a className="navbar-section" onClick={() => this.scrollToSectionOnClick("projects-section")}>Publications/Projects</a>
+              <a className="navbar-section" onClick={() => this.scrollToSectionOnClick("projects-section")}>Course/Projects</a>
               {/* <a className="navbar-section" onClick={() => this.scrollToSectionOnClick("publications-section")}>Publications</a> */}
-              <a className="navbar-section" onClick={() => this.scrollToSectionOnClick("minecraft-section")}>Minecraft</a>
+              {/* <a className="navbar-section" onClick={() => this.scrollToSectionOnClick("minecraft-section")}>Minecraft</a> */}
             </div>
           </nav>
                     

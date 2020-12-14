@@ -20,11 +20,11 @@ export default class Education extends React.Component {
               degree="Bachelor of Science"
               department="Computer Science (GPA: 3.99/4.3)"
               descriptions={[
-                "Undergrad Research Assistant @ High Speed Communication & Computing LAB",
-                "NCTU IEEE Eta Kappa Nu Honor Society Member",
-                "Placed second in excellence award given by NCTU @ 2018"
+                "Undergraduate Research Assistant @ High Speed Communication & Computing LAB",
+                "NCTU IEEE Eta Kappa Nu Honor Society Candidate",
+                "Dean's list given by NCTU @ 2018"
               ]}
-              period="Nov. 2017 - July 2021"
+              period="Sep. 2017 - June 2021"
               location="Taipei, Taiwan"
             />
           </div>

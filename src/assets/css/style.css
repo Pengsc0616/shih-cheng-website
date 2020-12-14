@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
   float: left;
   position: fixed;
   overflow-y: scroll;
-  background: #f2f3f7;
+  background: #b6d7eb;
 }
 
   #aside-container #author-container {
@@ -117,13 +117,15 @@ h1, h2, h3, h4, h5, h6 {
 #main-container {
   width: calc(100% - 300px);
   float: right;
+  background-color: rgb(230, 222, 207);
 }
 
 .section-container {
   min-height: 100vh;
   margin-bottom: 40px;
   padding-bottom: 40px;
-  background-color: rgb(224, 188, 108);
+  
+  background-color: rgb(230, 222, 207);
   /* border-style: inset; */
 }
 
@@ -311,6 +313,48 @@ h1, h2, h3, h4, h5, h6 {
         color: rgba(0, 0, 0, 0.7);
         font-size: 12pt;
       }
+
+/* -------------------- Summary Content ---------------------*/
+#summary-container #summary-content {
+  width: 100%;
+  padding: 0 20px;
+}
+
+  #summary-container #summary-content .timeline {
+    position: relative;
+    width: 100%;
+    left: 0; 
+  }
+
+
+      #summary-container #summary-content .timeline .summary-entry .summary-entry-content {
+        padding: 20px 30px 0 30px;
+        background-color: #f2f3f7;
+        position: relative;
+        border-radius: 6px;
+      }
+      #summary-container #summary-content .company {
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 4;
+        color:black;
+      }
+      #summary-container #summary-content .company1 {
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 4;
+      }
+      #summary-container #summary-content .company2 {
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 4;
+      }
+      #summary-container #summary-content .company3 {
+        font-size: 60px;
+        font-weight: 600;
+        line-height: 4;
+      }
+      
 
 /* -------------------- Work Content -------------------- */
 
@@ -688,3 +732,30 @@ h1, h2, h3, h4, h5, h6 {
         letter-spacing: 1px;
         text-transform: capitalize;
       } 
+
+
+
+
+/*--------------------------------------------*/
+#pdfviewer {
+  width: 600px;
+  margin: 0 auto;
+}
+#pdfviewer .viewer-layout-toolbar {
+  background: #000;
+  color: #fff;
+}
+
+#pdfviewer .viewer-icon{
+  stroke: #fff;
+  stroke-width: 3px;
+}
+
+#pdfviewer .viewer-zoom-popover-target-arrow {
+  border-color: rgb(255 255 255 / 90%) transparent transparent;
+}
+
+#pdfviewer .viewer-menu-item-label, #pdfviewer .viewer-search-popover-label, #pdfviewer .viewer-menu, #pdfviewer .viewer-menu .viewer-icon{
+  color: #000;
+  stroke: #000;
+}
