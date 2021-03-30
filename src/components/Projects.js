@@ -4,7 +4,6 @@ import PublicationContent from './PublicationContent'
 import ProjectContent from './ProjectContent'
 import BTReport from '../assets/files/BTReport.pdf'
 import WIFIReport from '../assets/files/WIFIReport.pdf'
-import IntoJSProject from './IntoJSProject'
 
 export default class Projects extends Component {
 
@@ -130,19 +129,6 @@ export default class Projects extends Component {
                 "Using Blockchain to achieve timely distribution of profit and information transparency."
               ]}
               link="https://google.com"
-              media_type="image"
-              media_name="stroke_stylization"
-            />
-
-            <IntoJSProject
-              index="8"
-              title="Javascript Course - The Big Bang Theory"
-              descriptions={[
-                "JAVASCRIPT - FINAL PROJECT",
-                "Implemented three small games about The Big Band Theory",
-                "1. ..."
-              ]}
-              link="/#/finalProject/rps.html"
               media_type="image"
               media_name="stroke_stylization"
             />

@@ -19,7 +19,7 @@ export default class Summary extends React.Component {
                                 company1=" "
                                 company2="I am an undergraduate in the CS Department at National Chiao Tung University."
                                 company3="Currently a wireless technical intern at Intel since July 2020."
-                                company4="Passionate about network programming, especially wireless network."
+                                company4="Passionate about software development and network programming."
                                 company5="Also actively try different development boards and IoT environments."
                             />
                             
