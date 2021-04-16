@@ -2,8 +2,8 @@ import React, { Component } from 'react'
 
 import PublicationContent from './PublicationContent'
 import ProjectContent from './ProjectContent'
-import BTReport from '../assets/files/BTReport.pdf'
-import WIFIReport from '../assets/files/WIFIReport.pdf'
+//import BTReport from '../assets/files/BTReport.pdf'
+//import WIFIReport from '../assets/files/WIFIReport.pdf'
 
 export default class Projects extends Component {
 
@@ -44,7 +44,7 @@ export default class Projects extends Component {
                 "Built Windows API to interact with customized sender created by HCI commands",
                 "Using tools like Ellisys and BTVS to analyze data transferring."
               ]}
-              link={BTReport}
+              link="https://google.com"
               media_type="image"
               media_name="address_spell_checker"
             />
@@ -56,7 +56,7 @@ export default class Projects extends Component {
                 "Implemented the SDK APIs in a dynamic link library (DLL) for PIE (Intel® PROSet/Wireless WiFi Software extension).",
                 "Designed a user-level application to communicate with Intel® Dual Band Wireless-AC and Intel® Wireless-AC/AX products."
               ]}
-              link={WIFIReport}
+              link="https://google.com"
               media_type="image"
               media_name="anime_gan"
             />
