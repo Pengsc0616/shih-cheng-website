@@ -16,7 +16,7 @@ export default class Work extends React.Component {
             <div className="timeline">
               <WorkContent 
                 company="Intel Corporation - CCG Wireless Team"
-                job="Wireless Technical Intern"
+                job="Software Engineer Intern"
                 descriptions={[
                   {
                     name: "Bluetooth 5.2 Advertisement Demonstration",
